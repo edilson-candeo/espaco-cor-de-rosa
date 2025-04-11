@@ -1,0 +1,68 @@
+    
+    <div class="container">
+
+        <div class="foto">
+
+            <!-- <img src="./img/unha.jpeg" alt="" width="576" height="720"> -->
+
+        </div>
+
+        <div class="texto">
+
+            <div class="bem">
+            <h1 id="titulo">Bem-vindo ao <br>Espaço <br>Cor de Rosa</h1>
+            </div>
+        
+            <div class="vindo">
+            <p id="titulo">Entre num mundo da arte de unhas, onde transformamos as suas unhas, 
+                em obras-primas deslumbrantes.<br>
+            Venha experimentar a fusão perfeita de habilidade e estilo conosco.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        padding: 5px 20px;
+        height: 500px;
+        font-family: "Dancing Script", cursive;
+        background-color: #40f130;
+    
+    }
+    
+    .container .foto {
+        height: 50%;
+        width: 50%;
+    }
+    
+    .container .texto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        width: 50%;
+        background-color: black;
+    }
+    
+    .container .texto .bem {
+        background-color: pink;
+        text-align: center;
+        font-size: 25px;
+        height: 50%;
+    }
+    
+    .container .texto .vindo {
+        background-color: blue;
+        text-align:right;
+        font-size: 25px;
+        padding: 30%;
+        height: 50%;
+    }

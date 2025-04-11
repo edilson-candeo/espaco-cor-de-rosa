@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.mostrandoprof {
+    display: grid;
+    grid-auto-rows: 200px;
+    grid-auto-columns: 200px;
+    grid-template-areas:
+    "ale alea alea"
+    "testando1 testando2 testando3"
+    "testando1 testando2 testando3"
+    "ale alea alea"
+    ;
+    gap: 20px;
+
+    /* align-items: center;
+    justify-content: center; */
+
+
+    background-color: black;
+    height: 800px;
+    width: 100%;
+}
+
+#tam {
+    height: 100px;
+    width: 100px;
+}
+
+.testando11 {
+    grid-area: testando1;
+    background-color: red;
+}
+
+.testando22 {
+    grid-area: testando2;
+    background-color: blue;
+}
+
+.testando33 {
+    grid-area: testando3;
+    background-color: yellow;
+}
+
+.alea {
+    grid-area: alea1;
+}
