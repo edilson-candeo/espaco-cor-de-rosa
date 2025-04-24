@@ -1,0 +1,26 @@
+{
+  "name": "espaco-cor-de-rosa",
+  "version": "1.0.0",
+  "description": "Este projeto é parte da atividade da disciplina, com o objetivo de criar protótipos navegáveis baseados em um site existente.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edilson-candeo/espaco-cor-de-rosa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edilson-candeo/espaco-cor-de-rosa/issues"
+  },
+  "homepage": "https://github.com/edilson-candeo/espaco-cor-de-rosa#readme",
+  "dependencies": {
+    "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
